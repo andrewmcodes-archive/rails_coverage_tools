@@ -7,15 +7,9 @@
 ### Clone the repository
 
 ```shell
-git clone git@github.com:andrewmcodes/rails_template.git
-cd project
+git clone git@github.com:andrewmcodes/rails_coverage_tools.git
+cd rails_coverage_tools
 ```
-
-### Update app name
-
-Navigate to `config/application.rb` and change `AndrewmcodesTemplateApp` to whatever the name of your app is.
-
-Do the same in `config/database.yml`
 
 ### Dependencies
 
