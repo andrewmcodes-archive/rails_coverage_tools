@@ -29,6 +29,7 @@ group :development do
   gem "better_errors"
   gem "binding_of_caller"
   gem "bullet"
+  gem "coverband"
   gem "erb_lint"
   gem "guard-livereload", "~> 2.5", require: false
   gem "guard-webpacker"
