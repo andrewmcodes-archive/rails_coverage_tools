@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<div class="relative bg-indigo-900 md:pt-32 pb-32 pt-12 px-4 md:px-10 mx-auto">
+    <h1 class="font-semibold text-4xl text-gray-100 my-8">Title: <%= @post.title %></h1>
+</div>
+
+<div class="px-4 md:px-10 mx-auto w-full mt-12">
+  <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6">
+    <h2 class="font-semibold text-2xl indigo-900 my-2">Content:</h2>
+    <p>
+      <%= @post.content %>
+    </p>
+  </div>
+</button>
+  <%= link_to "Edit", edit_post_path(@post), class: "bg-transparent hover:bg-indigo-900 text-indigo-700 font-semibold hover:text-white py-2 px-4 border border-indigo-900 hover:border-transparent rounded" %> |
+  <%= link_to "Back", posts_path, class: "bg-transparent hover:bg-indigo-900 text-indigo-700 font-semibold hover:text-white py-2 px-4 border border-indigo-900 hover:border-transparent rounded" %>
+</div>
