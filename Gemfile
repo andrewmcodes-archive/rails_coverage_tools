@@ -26,14 +26,17 @@ end
 
 group :development do
   gem "annotate"
+  gem "attractor-javascript"
+  gem "attractor-ruby"
+  gem "attractor"
   gem "better_errors"
   gem "binding_of_caller"
   gem "bullet"
   # gem "coverband"
   gem "erb_lint"
   gem "guard"
-  gem "guard-minitest"
   gem "guard-livereload", "~> 2.5", require: false
+  gem "guard-minitest"
   gem "guard-webpacker"
   gem "listen", "~> 3.2"
   gem "rack-livereload"
