@@ -1,7 +1,7 @@
 require_relative "boot"
 
 require "rails/all"
-require "coverband"
+# require "coverband"
 Bundler.require(*Rails.groups)
 
 module RailsCoverageTools
