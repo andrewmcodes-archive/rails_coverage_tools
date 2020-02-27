@@ -1,5 +1,4 @@
 Coverband.configure do |config|
-  # config.track_views = true
   config.track_gems = true
   config.ignore += ["config/application.rb",
                     "config/boot.rb",

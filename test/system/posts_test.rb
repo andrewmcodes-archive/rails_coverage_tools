@@ -7,7 +7,7 @@ class PostsTest < ApplicationSystemTestCase
 
   test "visiting the index" do
     visit posts_url
-    assert_selector "h1", text: "Posts"
+    assert_selector "h2", text: "Posts"
   end
 
   test "creating a Post" do
