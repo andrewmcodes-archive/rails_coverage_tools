@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "2.7.0"
+ruby "2.6.5"
 
 gem "bootsnap", ">= 1.4.2", require: false
 # Use Active Storage variant
@@ -29,19 +29,22 @@ group :development do
   gem "better_errors"
   gem "binding_of_caller"
   gem "bullet"
-  gem "coverband"
+  # gem "coverband"
   gem "erb_lint"
+  gem "guard"
+  gem "guard-minitest"
   gem "guard-livereload", "~> 2.5", require: false
   gem "guard-webpacker"
-  gem "guard"
-  gem "listen", ">= 3.0.5", "< 3.2"
+  gem "listen", "~> 3.2"
   gem "rack-livereload"
   gem "web-console", ">= 3.3.0"
 end
 
 group :test do
   gem "capybara", ">= 2.15"
+  gem "minitest-reporters"
   gem "selenium-webdriver"
+  gem "simplecov", require: false
   gem "webdrivers"
 end
 

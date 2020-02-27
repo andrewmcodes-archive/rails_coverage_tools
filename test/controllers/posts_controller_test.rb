@@ -23,6 +23,12 @@ class PostsControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to post_url(Post.last)
   end
 
+  test "should not create post" do
+    assert_no_difference("Post.count") do
+      post posts_url, params: {post: {content: @post.content, title: ""}}
+    end
+  end
+
   test "should show post" do
     get post_url(@post)
     assert_response :success
