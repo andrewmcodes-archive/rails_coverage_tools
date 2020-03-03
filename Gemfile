@@ -9,7 +9,7 @@ gem "bootsnap", ">= 1.4.2", require: false
 # Create JSON structures via a Builder-style DSL
 # gem 'jbuilder', '~> 2.7'
 gem "pg", ">= 0.18", "< 2.0"
-gem "puma", "~> 4.1"
+gem "puma", "~> 4.3"
 gem "rails", "~> 6.0.2", ">= 6.0.2.1"
 # A Ruby client that tries to match Redis' API one-to-one, while still providing an idiomatic interface.
 gem "redis", "~> 4.0"
